@@ -1,66 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>El Grano Dorado - Cafetería Premium</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafetería El Grano Dorado</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-
+  <!-- Hero -->
   <header class="hero">
-    <nav class="navbar">
-      <h1 class="logo">El Grano Dorado</h1>
-    </nav>
     <div class="hero-content">
-      <h2>Compartimos café de calidad que conecta personas</h2>
-      <p>Una experiencia de sabor en cada taza</p>
-      <a href="#menu" class="btn">Ver Menú</a>
+      <h1>☕ El Grano Dorado</h1>
+      <p>Un café premium donde la tradición se une con la innovación.</p>
+      <a href="#menu" class="btn">Explorar Menú</a>
     </div>
   </header>
 
+  <!-- Historia -->
   <section class="about">
-    <div class="about-text">
-      <h2>Nuestra Historia</h2>
-      <p>
-        Nacimos con una pasión: ofrecer café artesanal en un ambiente cálido y sofisticado.
-        Seleccionamos granos de calidad y los transformamos en experiencias inolvidables.
-      </p>
-    </div>
-    <div class="about-img">
-      <img src="img/barista.jpg" alt="Barista preparando café" />
+    <h2>Nuestra Historia</h2>
+    <p>Desde nuestros inicios, hemos perfeccionado el arte del café, seleccionando granos de la más alta calidad, preparados con procesos innovadores y un toque de exclusividad.</p>
+  </section>
+
+  <!-- Menú -->
+  <section class="menu" id="menu">
+    <h2>Menú
+    </h2>
+    <div class="cards">
+      <div class="card">
+        <img src="img/cafe1.jpeg" alt="Espresso">
+        <h3>Espresso</h3>
+        <p>Intenso, aromático, la esencia del café.</p>
+      </div>
+      <div class="card">
+        <img src="img/cafe2.jpeg" alt="Latte">
+        <h3>Latte de Autor</h3>
+        <p>Cremoso, con arte latte exclusivo de la casa.</p>
+      </div>
+      <div class="card">
+        <img src="img/postre.jpeg" alt="Postres">
+        <h3>Postres Gourmet</h3>
+        <p>El complemento perfecto: dulces únicos para acompañar tu café.</p>
+      </div>
     </div>
   </section>
 
-  <section id="menu" class="menu">
-    <h2>Nuestro Menú</h2>
-    <div class="menu-grid">
-      <div class="menu-item">Café Espresso<br><span>$45 MXN</span></div>
-      <div class="menu-item">Capuchino Artesanal<br><span>$55 MXN</span></div>
-      <div class="menu-item">Cold Brew Especial<br><span>$60 MXN</span></div>
-      <div class="menu-item">Pan Dulce de la Casa<br><span>$35 MXN</span></div>
-    </div>
-  </section>
-
+  <!-- Galería -->
   <section class="gallery">
-    <h2>Galería</h2>
-    <div class="gallery-grid">
-      <img src="img/local.jpg" alt="Cafetería" />
-      <img src="img/cafe1.jpg" alt="Café" />
-      <img src="img/cafe2.jpg" alt="Café" />
-      <img src="img/postre.jpg" alt="Postre" />
+    <h2>Experiencia Visual</h2>
+    <div class="images">
+      <img src="img/local.jpeg" alt="Local Premium">
+      <img src="img/barista.jpeg" alt="Barista preparando café">
+      <img src="img/portada.jpeg" alt="Ambiente exclusivo">
     </div>
   </section>
 
-  <section class="cta">
-    <h2>Únete a Nuestra Comunidad</h2>
-    <p>Más que café, creamos conexiones.</p>
-    <a href="#contacto" class="btn">Contáctanos</a>
+  <!-- Testimonios -->
+  <section class="testimonials">
+    <h2>Lo que dicen nuestros clientes</h2>
+    <div class="testimonial-box">
+      <p>“El mejor café que he probado, ambiente de primera y trato increíble.”</p>
+      <span>- Sofía M.</span>
+    </div>
+    <div class="testimonial-box">
+      <p>“Se siente como entrar en el futuro del café, simplemente espectacular.”</p>
+      <span>- Daniel R.</span>
+    </div>
   </section>
 
-  <footer class="footer">
-    <p>&copy; 2025 El Grano Dorado - Todos los derechos reservados</p>
-  </footer>
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Únete a la experiencia</h2>
+    <p>Visítanos y descubre un universo donde el café y la nanotecnología se unen.</p>
+    <a href="#menu" class="btn">Ven a conocernos</a>
+  </section>
 
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 El Grano Dorado | Todos los derechos reservados</p>
+  </footer>
 </body>
 </html>
